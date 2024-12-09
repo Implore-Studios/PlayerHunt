@@ -1,0 +1,4 @@
+name: PlayerHunt
+version: '1.0.0-SNAPSHOT'
+main: org.implorestudios.playerHunt.PlayerHuntPlugin
+api-version: '1.21'
