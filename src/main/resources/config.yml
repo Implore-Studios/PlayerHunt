@@ -1,0 +1,17 @@
+# Countdown to game start in seconds
+countdown: 20
+# Whether the plugin should use a custom tablist when the game is progressing.
+enableTablist: true
+compass:
+  enabled: true
+  # Seconds for which the player can't use the compass after using it once
+  cooldown: 10
+  name: '<reset><dark_purple><b>Runner Compass</b> <gray>(Right-Click)'
+  lore:
+    - '<aqua>Shows you the direction to the nearest runner.'
+    - '<gray><i>Right-click to update direction'
+  droppable: false
+  showEnchanted: true
+deathMessages:
+  enableRunner: true
+  enableHunter: true

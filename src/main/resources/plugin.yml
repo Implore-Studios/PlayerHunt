@@ -1,4 +1,17 @@
 name: PlayerHunt
-version: '1.0.0-SNAPSHOT'
-main: org.implorestudios.playerHunt.PlayerHuntPlugin
-api-version: '1.21'
+version: '${version}'
+main: org.implorestudios.playerhunt.PlayerHuntPlugin
+api-version: 1.13
+depend:
+  - BlueSlimeCore
+softdepend:
+  - PlaceholderAPI
+  - TAB
+commands:
+  playerhunt:
+    description: "Manage the plugin"
+    permission: ""
+permissions:
+  playerhunt.command:
+    description: "Access to all /playerhunt commands"
+    default: op
