@@ -2,11 +2,10 @@
 prefix: "<gold>PlayerHunt <gray>»<white>"
 
 deathMessages:
-  # Runner dies, but not to a hunter (e.g. fall damage, killed by other players not included in the game, etc.). PlaceholderAPI parsed for runner
+  # Runner dies, but not to a hunter (e.g., fall damage, killed by other players not included in the game, etc.). PlaceholderAPI parsed for runner
   runnerDied: "<green>Runner <aqua>%player%</aqua> has died! There are <aqua>%runners%</aqua> runners left."
-  # Runner is killed by a hunter. PlaceholderAPI parsed for runner
-  runnerKilled: "<green>Runner <aqua>%runner%</aqua> has been killed by the hunter <aqua>%hunter%</aqua>. There
-    are <aqua>%runners%</aqua> runners left."
+  # A hunter kills runner. PlaceholderAPI parsed for runner
+  runnerKilled: "<green>Runner <aqua>%runner%</aqua> has been killed by the hunter <aqua>%hunter%</aqua>. There are <aqua>%runners%</aqua> runners left."
   # Hunter dies to anything that is not a player
   hunterDied: "<green>Hunter <aqua>%hunter%</aqua> has died!"
   # Hunter dies to a runner
@@ -118,12 +117,12 @@ compass:
   cooldownMessage:
     type: ACTION_BAR
     content: "<red>Compass in cooldown! Cannot use for <aqua>%time%s</aqua>."
-  # Compass is successfully used, and the direction updated
+  # The Compass is successfully used, and the direction updated
   message:
     type: ACTION_BAR
     content: "<green>X: <aqua>%x%</aqua>, <green>Z: <aqua>%z%</aqua>"
 gameStarted: |-
-   
+  
   <gold><st>                       </st><b>Player Hunt</b><st>                       </st></gold>
   
        <green><i>Hunters:</i>
